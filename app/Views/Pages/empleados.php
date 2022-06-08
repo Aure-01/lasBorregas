@@ -9,13 +9,13 @@
 <table class="table table-hover" id="tablaClientes" name="tablaClientes">
     <thead>
         <tr>
-            <th scope="col">ID EMPLEADO</th>
-            <th scope="col">NOMBRE</th>
-            <th scope="col">APELLIDOS</th>
-            <th scope="col">TELEFONO</th>
-            <th scope="col">FECHA INGRESO</th>
-            <th scope="col">USUARIO</th>
-            <th scope="col">ACCIONES</th>
+            <th scope="col">Id Empleado</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Fecha Ingresp</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody id="resultClientes" name="resultClientes">

@@ -8,13 +8,13 @@
 <table class="table table-hover" id="tablaVentas" name="tablaVentas">
     <thead>
         <tr>
-            <th scope="col">ID VENTA</th>
-            <th scope="col">ID CLIENTE</th>
-            <th scope="col">NOMBRE</th>
-            <th scope="col">FECHA</th>
-            <th scope="col">TIPO VENTA</th>
-            <th scope="col">TOTAL</th>
-            <th scope="col">ACCIONES</th>
+            <th scope="col">Id Venta</th>
+            <th scope="col">Id Cliente</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Tipo De Venta</th>
+            <th scope="col">Total</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody id="resultVentas" name="resultVentas">
@@ -27,7 +27,7 @@
                 <td> <?php echo $row->cl_nombre ?></td>
                 <td> <?php echo $row->fecha ?></td>
                 <td> <?php echo $row->tipo_venta ?></td>
-                <td> $<?php echo $row->total ?> pesos</td>
+                <td> $<?php echo $row->total ?>pesos</td>
                 <td>
                     <a href="<?php echo base_url('/venta/eliminar/' . $row->id_venta); ?>"><button class="btn btn-danger">Eliminar</button></a>
                     <a href="<?php echo base_url('/venta/editar/' . $row->id_venta); ?>"><button class="btn btn-warning">Editar</button></a>

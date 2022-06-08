@@ -7,9 +7,9 @@
     <table class="table table-hover" id="tablaBloquesVendidos" name="tablaBloquesVendidos">
         <thead>
             <tr>
-                <th scope="col">ID</th>
-                <th scope="col">NOMBRE</th>
-                <th scope="col"># DE VENTAS</th>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col"># De Ventas</th>
             </tr>
         </thead>
         <tbody id="resultClientes" name="resultClientes">

@@ -8,13 +8,13 @@
 <table class="table table-hover" id="tablaBloque" name="tablaBloque">
     <thead>
         <tr>
-            <th scope="col">BLQ nombre</th>
-            <th scope="col">PRECIO UNITARIO</th>
-            <th scope="col">PRECIO VENTA</th>
-            <th scope="col">TAMANO</th>
-            <th scope="col">ESTADO</th>
-            <th scope="col">EXISTENCIAS</th>
-            <th scope="col">ACCIONES</th>
+            <th scope="col">Bloque</th>
+            <th scope="col">Precio Unitario</th>
+            <th scope="col">Precio Venta</th>
+            <th scope="col">Tamaño</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Existencias</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody id="resultBloque" name="resultBloque">

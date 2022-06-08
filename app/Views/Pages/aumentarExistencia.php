@@ -12,7 +12,7 @@
                 <hr>
                 <div class="row g-3">
                     <div class="col-md-5">
-                        <label for="adicion" class="form-label">¿Cuanto deseas agregar?</label>
+                        <label for="adicion" class="form-label">¿Cuanto deseas agregar de <?php echo $row->blq_nombre; ?> <?php echo $row->blq_tamano; ?>?</label>
                         <input type="text" class="form-control" pattern="[0-9]+" min="1" id="adicion" name="adicion" required>
                     </div>
                     <div style="margin-top: 20px;">

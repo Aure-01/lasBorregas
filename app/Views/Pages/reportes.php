@@ -3,7 +3,7 @@
 <?php echo $this->section('contenido'); ?>
 
 <center>
-    <h1>REPORTES</h1>
+    <h1><Ri:a>Reportes</Ri:a></h1>
 </center>
 <hr>
 <div class="reportes">

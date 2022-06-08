@@ -30,15 +30,15 @@
                 <form action="<?php echo base_url('/clientes/venta-cliente'); ?>" method="POST" id="formCarrito">
                     <table class="table">
                         <thead>
-                            <th>NOMBRE</th>
-                            <th>PRECIO UNITARIO</th>
-                            <th>PRECIO</th>
-                            <th>CANTIDAD</th>
-                            <th>ACCIONES</th>
+                            <th>Nombre</th>
+                            <th>Precio Unitario</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Acciones</th>
                         </thead>
                         <tbody id="tableClienteBody">
                             <tr>
-                                <th>CARRITO VACIO</th>
+                                <th>Carrito Vacio</th>
                             </tr>
                         </tbody>
                         <tfoot>
@@ -53,7 +53,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 <button type="submit" id="btn-comprar" form="formCarrito" class="btn btn-primary" disabled>Comprar</button>
             </div>
         </div>

@@ -31,10 +31,10 @@ foreach ($ventasPorCliente->getResult() as $row) {
         <table class="table table-hover" id="tablaVentasPorFecha" name="tablaVentasPorFecha">
             <thead>
                 <tr>
-                    <th scope="col">ID VENTA</th>
-                    <th scope="col">FECHA</th>
-                    <th scope="col">TIPO DE VENTA</th>
-                    <th scope="col">TOTAL</th>
+                    <th scope="col">Id Venta</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Tipo De Venta</th>
+                    <th scope="col">Total</th>
                 </tr>
             </thead>
             <tbody id="resultVentasPorFecha" name="resultVentasPorFecha">

@@ -3,13 +3,13 @@
 <?php echo $this->section('contenido'); ?>
 
 <div class="bloquesVendidosContenido">
-    <h4>Tabla Bloques más Vendidos</h4>
+    <h4>Tabla Bloques Más Vendidos</h4>
     <table class="table table-hover" id="tablaBloquesVendidos" name="tablaBloquesVendidos">
         <thead>
             <tr>
-                <th scope="col">ID</th>
-                <th scope="col">NOMBRE</th>
-                <th scope="col">SUMATORIO</th>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Sumatorio</th>
             </tr>
         </thead>
         <tbody id="resultClientes" name="resultClientes">

@@ -138,6 +138,7 @@ footer {
   align-items: center;
   border: solid black;
   border-radius: 5px;
+  margin: 15px;
 }
 
 .container_detalle_venta{

@@ -8,10 +8,10 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>PRODUCTO</th>
-                    <th>DIMENSIONES</th>
-                    <th>CANTIDAD</th>
-                    <th>COSTO</th>
+                    <th>Producto</th>
+                    <th>Dimensiones</th>
+                    <th>Cantidad</th>
+                    <th>Costo</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,7 +22,7 @@
                     <tr>
                         <td><?php echo $detalle->blq_nombre ?></td>
                         <td><?php echo $detalle->blq_tamano ?></td>
-                        <td><?php echo $detalle->cantidad ?> UNIDADES</td>
+                        <td><?php echo $detalle->cantidad ?> Unidades</td>
                         <td>$<?php echo $detalle->precio_venta ?></td>
                     </tr>
                 <?php
@@ -34,9 +34,9 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th>TOTAL: $<?php echo $total; ?></th>
-                    <th>FECHA: <?php echo $fecha; ?></th>
-                    <th>ID VENTA: <?php echo $id_venta; ?></th>
+                    <th>Total: $<?php echo $total; ?></th>
+                    <th>Fecha: <?php echo $fecha; ?></th>
+                    <th>Id Venta: <?php echo $id_venta; ?></th>
                 </tr>
             </tfoot>
         </table>

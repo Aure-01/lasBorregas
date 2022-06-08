@@ -40,7 +40,7 @@
             </div>
             <div class="menu">
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="<?php echo base_url('/home'); ?>" class="nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="<?php echo base_url('/home'); ?>" class="nav-link" aria-current="page">Inicio</a></li>
                     <!-- condicion para identificar el rol del empleado y desplegar las vistas para cada uno-->
                     <?php if (session('usuario')->fkidrol == '1') { ?>
                         <li class="nav-item"><a href="<?php echo base_url('/clientes'); ?>" class="nav-link">Clientes</a></li>
