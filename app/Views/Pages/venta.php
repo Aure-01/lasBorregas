@@ -2,7 +2,7 @@
 
 <?php echo $this->section('contenido'); ?>
 <div class="twoHeader">
-    <h4>Tabla Ventas</h4>
+    <h4>Ventas</h4>
     <a href="<?php echo base_url('/venta/agregar'); ?>"><button class="btn btn-primary">Agregar Venta</button></a>
 </div>
 <table class="table table-hover" id="tablaVentas" name="tablaVentas">

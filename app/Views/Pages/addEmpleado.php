@@ -9,11 +9,11 @@
             <div class="row g-3">
                 <div class="col-md-5">
                     <label for="nombre" class="form-label">Nombres</label>
-                    <input type="text" class="form-control" id="nombre_empleado" name="nombre_empleado" pattern="[a-zA-Z]+" required>
+                    <input type="text" class="form-control" id="nombre_empleado" name="nombre_empleado" pattern="[a-zA-Z ,.'-]+" required>
                 </div>
                 <div class="col-md-5">
                     <label for="apaterno" class="form-label">Apellidos</label>
-                    <input type="text" class="form-control" id="apellido_empleado" name="apellido_empleado" pattern="[a-zA-Z]+" required>
+                    <input type="text" class="form-control" id="apellido_empleado" name="apellido_empleado" pattern="[a-zA-Z ,.'-]+" required>
                 </div>
                 <div class="col-md-5">
                     <label for="telefono" class="form-label">Telefono</label>
@@ -26,7 +26,7 @@
             <div class="row g-3">
                 <div class="col-md-6">
                     <label for="municipio" class="form-label">Fecha de Ingreso</label>
-                    <input type="date" class="form-control" onchange="validarFecha(id)" id="fecha_ingreso" name="fecha_ingreso" pattern="[a-zA-Z]+" required>
+                    <input type="date" class="form-control"  id="fecha_ingreso" name="fecha_ingreso" pattern="[a-zA-Z]+" required>
                 </div>
                 <div class="col-md-6">
                     <label for="municipio" class="form-label">Rol del empleado</label>
