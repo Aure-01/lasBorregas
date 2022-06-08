@@ -19,7 +19,7 @@
         body {
             display: flex;
             justify-content: center;
-            background-color: blueviolet;
+            background-color: #1ABC9C ;
         }
 
         .loginContainer {
