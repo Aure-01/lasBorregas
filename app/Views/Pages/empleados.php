@@ -13,7 +13,7 @@
             <th scope="col">Nombre</th>
             <th scope="col">Apellidos</th>
             <th scope="col">Telefono</th>
-            <th scope="col">Fecha Ingresp</th>
+            <th scope="col">Fecha Ingreso</th>
             <th scope="col">Usuario</th>
             <th scope="col">Acciones</th>
         </tr>

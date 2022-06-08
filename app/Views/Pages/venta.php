@@ -30,7 +30,6 @@
                 <td> $<?php echo $row->total ?>pesos</td>
                 <td>
                     <a href="<?php echo base_url('/venta/eliminar/' . $row->id_venta); ?>"><button class="btn btn-danger">Eliminar</button></a>
-                    <a href="<?php echo base_url('/venta/editar/' . $row->id_venta); ?>"><button class="btn btn-warning">Editar</button></a>
                 </td>
             </tr>
         <?php
